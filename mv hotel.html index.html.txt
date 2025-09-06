@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Отель Самарканд — Уютный отдых в сердце города</title>
-  <meta name="description" content="Отель Самарканд — уютные номера, завтрак, трансфер, экскурсии. Находится в 5 минутах от Регистана. Забронируйте номер прямо сейчас." />
-  <meta property="og:title" content="Отель Самарканд — Уютный отдых в сердце города" />
-  <meta property="og:description" content="Удобное расположение, бесплатный Wi-Fi, трансфер и экскурсии. Забронируйте номер в Самарканде." />
+  <title>ГЋГІГҐГ«Гј Г‘Г Г¬Г Г°ГЄГ Г­Г¤ вЂ” Г“ГѕГІГ­Г»Г© Г®ГІГ¤Г»Гµ Гў Г±ГҐГ°Г¤Г¶ГҐ ГЈГ®Г°Г®Г¤Г </title>
+  <meta name="description" content="ГЋГІГҐГ«Гј Г‘Г Г¬Г Г°ГЄГ Г­Г¤ вЂ” ГіГѕГІГ­Г»ГҐ Г­Г®Г¬ГҐГ°Г , Г§Г ГўГІГ°Г ГЄ, ГІГ°Г Г­Г±ГґГҐГ°, ГЅГЄГ±ГЄГіГ°Г±ГЁГЁ. ГЌГ ГµГ®Г¤ГЁГІГ±Гї Гў 5 Г¬ГЁГ­ГіГІГ Гµ Г®ГІ ГђГҐГЈГЁГ±ГІГ Г­Г . Г‡Г ГЎГ°Г®Г­ГЁГ°ГіГ©ГІГҐ Г­Г®Г¬ГҐГ° ГЇГ°ГїГ¬Г® Г±ГҐГ©Г·Г Г±." />
+  <meta property="og:title" content="ГЋГІГҐГ«Гј Г‘Г Г¬Г Г°ГЄГ Г­Г¤ вЂ” Г“ГѕГІГ­Г»Г© Г®ГІГ¤Г»Гµ Гў Г±ГҐГ°Г¤Г¶ГҐ ГЈГ®Г°Г®Г¤Г " />
+  <meta property="og:description" content="Г“Г¤Г®ГЎГ­Г®ГҐ Г°Г Г±ГЇГ®Г«Г®Г¦ГҐГ­ГЁГҐ, ГЎГҐГ±ГЇГ«Г ГІГ­Г»Г© Wi-Fi, ГІГ°Г Г­Г±ГґГҐГ° ГЁ ГЅГЄГ±ГЄГіГ°Г±ГЁГЁ. Г‡Г ГЎГ°Г®Г­ГЁГ°ГіГ©ГІГҐ Г­Г®Г¬ГҐГ° Гў Г‘Г Г¬Г Г°ГЄГ Г­Г¤ГҐ." />
   <meta property="og:image" content="https://source.unsplash.com/1200x630/?samarkand,hotel" />
   <meta name="theme-color" content="#2b6cb0" />
 
@@ -132,20 +132,20 @@
     <div class="brand">
       <img src="https://source.unsplash.com/300x300/?samarkand,architecture" alt="logo">
       <div>
-        <div style="font-size:16px">Отель <strong>Самарканд</strong></div>
-        <div style="font-size:12px;color:rgba(255,255,255,0.9)">Уютный отдых в сердце города</div>
+        <div style="font-size:16px">ГЋГІГҐГ«Гј <strong>Г‘Г Г¬Г Г°ГЄГ Г­Г¤</strong></div>
+        <div style="font-size:12px;color:rgba(255,255,255,0.9)">Г“ГѕГІГ­Г»Г© Г®ГІГ¤Г»Гµ Гў Г±ГҐГ°Г¤Г¶ГҐ ГЈГ®Г°Г®Г¤Г </div>
       </div>
     </div>
 
     <div style="display:flex;align-items:center;gap:12px">
       <nav>
-        <a href="#about">О нас</a>
-        <a href="#rooms">Номера</a>
-        <a href="#services">Услуги</a>
-        <a href="#contacts">Контакты</a>
+        <a href="#about">ГЋ Г­Г Г±</a>
+        <a href="#rooms">ГЌГ®Г¬ГҐГ°Г </a>
+        <a href="#services">Г“Г±Г«ГіГЈГЁ</a>
+        <a href="#contacts">ГЉГ®Г­ГІГ ГЄГІГ»</a>
       </nav>
       <div class="mobile-links">
-        <a class="cta" href="#booking">Забронировать</a>
+        <a class="cta" href="#booking">Г‡Г ГЎГ°Г®Г­ГЁГ°Г®ГўГ ГІГј</a>
       </div>
     </div>
   </div>
@@ -153,119 +153,119 @@
 
 <main class="container">
   <!-- HERO -->
-  <section class="hero" aria-label="Главная">
+  <section class="hero" aria-label="ГѓГ«Г ГўГ­Г Гї">
     <div class="hero-card">
-      <h1 class="hero-title">Отель <span style="color:var(--accent)">Самарканд</span></h1>
-      <p class="hero-sub">Комфортные номера, домашний завтрак и экскурсии к Регистану. Идеально для туристов и деловых гостей.</p>
+      <h1 class="hero-title">ГЋГІГҐГ«Гј <span style="color:var(--accent)">Г‘Г Г¬Г Г°ГЄГ Г­Г¤</span></h1>
+      <p class="hero-sub">ГЉГ®Г¬ГґГ®Г°ГІГ­Г»ГҐ Г­Г®Г¬ГҐГ°Г , Г¤Г®Г¬Г ГёГ­ГЁГ© Г§Г ГўГІГ°Г ГЄ ГЁ ГЅГЄГ±ГЄГіГ°Г±ГЁГЁ ГЄ ГђГҐГЈГЁГ±ГІГ Г­Гі. Г€Г¤ГҐГ Г«ГјГ­Г® Г¤Г«Гї ГІГіГ°ГЁГ±ГІГ®Гў ГЁ Г¤ГҐГ«Г®ГўГ»Гµ ГЈГ®Г±ГІГҐГ©.</p>
 
       <div style="display:flex;gap:12px;align-items:center;margin-top:6px">
-        <a class="btn" href="#booking">Забронировать</a>
-        <a class="btn secondary" href="#rooms">Смотреть номера</a>
+        <a class="btn" href="#booking">Г‡Г ГЎГ°Г®Г­ГЁГ°Г®ГўГ ГІГј</a>
+        <a class="btn secondary" href="#rooms">Г‘Г¬Г®ГІГ°ГҐГІГј Г­Г®Г¬ГҐГ°Г </a>
       </div>
 
       <ul style="margin-top:16px;color:var(--muted);padding-left:18px">
-        <li>Бесплатный Wi-Fi по всей территории</li>
-        <li>Трансфер из аэропорта по запросу</li>
-        <li>Помощь в организации экскурсий по Самарканду</li>
+        <li>ГЃГҐГ±ГЇГ«Г ГІГ­Г»Г© Wi-Fi ГЇГ® ГўГ±ГҐГ© ГІГҐГ°Г°ГЁГІГ®Г°ГЁГЁ</li>
+        <li>Г’Г°Г Г­Г±ГґГҐГ° ГЁГ§ Г ГЅГ°Г®ГЇГ®Г°ГІГ  ГЇГ® Г§Г ГЇГ°Г®Г±Гі</li>
+        <li>ГЏГ®Г¬Г®Г№Гј Гў Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ ГЅГЄГ±ГЄГіГ°Г±ГЁГ© ГЇГ® Г‘Г Г¬Г Г°ГЄГ Г­Г¤Гі</li>
       </ul>
 
       <div style="margin-top:12px;color:var(--muted);font-size:14px">
-        Контакты: <strong>+998 66 123 45 67</strong> — WhatsApp / Телефон
+        ГЉГ®Г­ГІГ ГЄГІГ»: <strong>+998 66 123 45 67</strong> вЂ” WhatsApp / Г’ГҐГ«ГҐГґГ®Г­
       </div>
     </div>
 
     <div class="hero-photo">
-      <img src="https://source.unsplash.com/900x600/?samarkand,hotel,interior" alt="Отель Самарканд">
+      <img src="https://source.unsplash.com/900x600/?samarkand,hotel,interior" alt="ГЋГІГҐГ«Гј Г‘Г Г¬Г Г°ГЄГ Г­Г¤">
     </div>
   </section>
 
   <!-- ABOUT -->
-  <section id="about" aria-label="О нас">
-    <h2>О нашем отеле</h2>
-    <p class="lead">Отель «Самарканд» расположен в историческом центре города, в 5 минутах ходьбы от площади Регистан и основных достопримечательностей. Мы предлагаем уютные номера, персональную заботу и выгодное расположение для прогулок и экскурсий.</p>
+  <section id="about" aria-label="ГЋ Г­Г Г±">
+    <h2>ГЋ Г­Г ГёГҐГ¬ Г®ГІГҐГ«ГҐ</h2>
+    <p class="lead">ГЋГІГҐГ«Гј В«Г‘Г Г¬Г Г°ГЄГ Г­Г¤В» Г°Г Г±ГЇГ®Г«Г®Г¦ГҐГ­ Гў ГЁГ±ГІГ®Г°ГЁГ·ГҐГ±ГЄГ®Г¬ Г¶ГҐГ­ГІГ°ГҐ ГЈГ®Г°Г®Г¤Г , Гў 5 Г¬ГЁГ­ГіГІГ Гµ ГµГ®Г¤ГјГЎГ» Г®ГІ ГЇГ«Г®Г№Г Г¤ГЁ ГђГҐГЈГЁГ±ГІГ Г­ ГЁ Г®Г±Г­Г®ГўГ­Г»Гµ Г¤Г®Г±ГІГ®ГЇГ°ГЁГ¬ГҐГ·Г ГІГҐГ«ГјГ­Г®Г±ГІГҐГ©. ГЊГ» ГЇГ°ГҐГ¤Г«Г ГЈГ ГҐГ¬ ГіГѕГІГ­Г»ГҐ Г­Г®Г¬ГҐГ°Г , ГЇГҐГ°Г±Г®Г­Г Г«ГјГ­ГіГѕ Г§Г ГЎГ®ГІГі ГЁ ГўГ»ГЈГ®Г¤Г­Г®ГҐ Г°Г Г±ГЇГ®Г«Г®Г¦ГҐГ­ГЁГҐ Г¤Г«Гї ГЇГ°Г®ГЈГіГ«Г®ГЄ ГЁ ГЅГЄГ±ГЄГіГ°Г±ГЁГ©.</p>
 
     <div class="grid-3" style="margin-top:14px">
       <div class="card">
-        <h3 style="margin-top:0">Удобное расположение</h3>
-        <p class="lead" style="margin:0">Рядом музеи, рынки и рестораны узбекской кухни.</p>
+        <h3 style="margin-top:0">Г“Г¤Г®ГЎГ­Г®ГҐ Г°Г Г±ГЇГ®Г«Г®Г¦ГҐГ­ГЁГҐ</h3>
+        <p class="lead" style="margin:0">ГђГїГ¤Г®Г¬ Г¬ГіГ§ГҐГЁ, Г°Г»Г­ГЄГЁ ГЁ Г°ГҐГ±ГІГ®Г°Г Г­Г» ГіГ§ГЎГҐГЄГ±ГЄГ®Г© ГЄГіГµГ­ГЁ.</p>
       </div>
       <div class="card">
-        <h3 style="margin-top:0">Комфорт и чистота</h3>
-        <p class="lead" style="margin:0">Ежедневная уборка, комфортные кровати, климат-контроль.</p>
+        <h3 style="margin-top:0">ГЉГ®Г¬ГґГ®Г°ГІ ГЁ Г·ГЁГ±ГІГ®ГІГ </h3>
+        <p class="lead" style="margin:0">Г…Г¦ГҐГ¤Г­ГҐГўГ­Г Гї ГіГЎГ®Г°ГЄГ , ГЄГ®Г¬ГґГ®Г°ГІГ­Г»ГҐ ГЄГ°Г®ГўГ ГІГЁ, ГЄГ«ГЁГ¬Г ГІ-ГЄГ®Г­ГІГ°Г®Г«Гј.</p>
       </div>
       <div class="card">
-        <h3 style="margin-top:0">Поддержка 24/7</h3>
-        <p class="lead" style="margin:0">Ресепшн работает круглосуточно, поможем с трансфером и экскурсиями.</p>
+        <h3 style="margin-top:0">ГЏГ®Г¤Г¤ГҐГ°Г¦ГЄГ  24/7</h3>
+        <p class="lead" style="margin:0">ГђГҐГ±ГҐГЇГёГ­ Г°Г ГЎГ®ГІГ ГҐГІ ГЄГ°ГіГЈГ«Г®Г±ГіГІГ®Г·Г­Г®, ГЇГ®Г¬Г®Г¦ГҐГ¬ Г± ГІГ°Г Г­Г±ГґГҐГ°Г®Г¬ ГЁ ГЅГЄГ±ГЄГіГ°Г±ГЁГїГ¬ГЁ.</p>
       </div>
     </div>
   </section>
 
   <!-- ROOMS -->
-  <section id="rooms" aria-label="Номера">
-    <h2>Номера и цены</h2>
-    <p class="lead">Выбери тип номера — от уютного Стандарта до просторного Люкса. Цены ориентировочные — уточняйте при бронировании.</p>
+  <section id="rooms" aria-label="ГЌГ®Г¬ГҐГ°Г ">
+    <h2>ГЌГ®Г¬ГҐГ°Г  ГЁ Г¶ГҐГ­Г»</h2>
+    <p class="lead">Г‚Г»ГЎГҐГ°ГЁ ГІГЁГЇ Г­Г®Г¬ГҐГ°Г  вЂ” Г®ГІ ГіГѕГІГ­Г®ГЈГ® Г‘ГІГ Г­Г¤Г Г°ГІГ  Г¤Г® ГЇГ°Г®Г±ГІГ®Г°Г­Г®ГЈГ® Г‹ГѕГЄГ±Г . Г–ГҐГ­Г» Г®Г°ГЁГҐГ­ГІГЁГ°Г®ГўГ®Г·Г­Г»ГҐ вЂ” ГіГІГ®Г·Г­ГїГ©ГІГҐ ГЇГ°ГЁ ГЎГ°Г®Г­ГЁГ°Г®ГўГ Г­ГЁГЁ.</p>
 
     <div class="grid-3" style="margin-top:14px">
       <div class="card">
-        <div class="room-photo"><img src="https://source.unsplash.com/600x400/?hotel,room" alt="Стандарт"></div>
-        <h3>Стандарт</h3>
-        <p style="margin:6px 0;color:var(--muted)">Одноместный / двухместный номер, 18–22 м?, душ, рабочее место.</p>
-        <div style="font-weight:700">от 40 $ / ночь</div>
+        <div class="room-photo"><img src="https://source.unsplash.com/600x400/?hotel,room" alt="Г‘ГІГ Г­Г¤Г Г°ГІ"></div>
+        <h3>Г‘ГІГ Г­Г¤Г Г°ГІ</h3>
+        <p style="margin:6px 0;color:var(--muted)">ГЋГ¤Г­Г®Г¬ГҐГ±ГІГ­Г»Г© / Г¤ГўГіГµГ¬ГҐГ±ГІГ­Г»Г© Г­Г®Г¬ГҐГ°, 18вЂ“22 Г¬?, Г¤ГіГё, Г°Г ГЎГ®Г·ГҐГҐ Г¬ГҐГ±ГІГ®.</p>
+        <div style="font-weight:700">Г®ГІ 40 $ / Г­Г®Г·Гј</div>
       </div>
 
       <div class="card">
-        <div class="room-photo"><img src="https://source.unsplash.com/600x400/?hotel,bedroom" alt="Люкс"></div>
-        <h3>Люкс</h3>
-        <p style="margin:6px 0;color:var(--muted)">Просторный номер, улучшенная мебель, мини-бар, вид на город.</p>
-        <div style="font-weight:700">от 70 $ / ночь</div>
+        <div class="room-photo"><img src="https://source.unsplash.com/600x400/?hotel,bedroom" alt="Г‹ГѕГЄГ±"></div>
+        <h3>Г‹ГѕГЄГ±</h3>
+        <p style="margin:6px 0;color:var(--muted)">ГЏГ°Г®Г±ГІГ®Г°Г­Г»Г© Г­Г®Г¬ГҐГ°, ГіГ«ГіГ·ГёГҐГ­Г­Г Гї Г¬ГҐГЎГҐГ«Гј, Г¬ГЁГ­ГЁ-ГЎГ Г°, ГўГЁГ¤ Г­Г  ГЈГ®Г°Г®Г¤.</p>
+        <div style="font-weight:700">Г®ГІ 70 $ / Г­Г®Г·Гј</div>
       </div>
 
       <div class="card">
-        <div class="room-photo"><img src="https://source.unsplash.com/600x400/?family,hotel" alt="Семейный номер"></div>
-        <h3>Семейный</h3>
-        <p style="margin:6px 0;color:var(--muted)">Два смежных номера или большой номер для семьи до 4 человек.</p>
-        <div style="font-weight:700">от 85 $ / ночь</div>
+        <div class="room-photo"><img src="https://source.unsplash.com/600x400/?family,hotel" alt="Г‘ГҐГ¬ГҐГ©Г­Г»Г© Г­Г®Г¬ГҐГ°"></div>
+        <h3>Г‘ГҐГ¬ГҐГ©Г­Г»Г©</h3>
+        <p style="margin:6px 0;color:var(--muted)">Г„ГўГ  Г±Г¬ГҐГ¦Г­Г»Гµ Г­Г®Г¬ГҐГ°Г  ГЁГ«ГЁ ГЎГ®Г«ГјГёГ®Г© Г­Г®Г¬ГҐГ° Г¤Г«Гї Г±ГҐГ¬ГјГЁ Г¤Г® 4 Г·ГҐГ«Г®ГўГҐГЄ.</p>
+        <div style="font-weight:700">Г®ГІ 85 $ / Г­Г®Г·Гј</div>
       </div>
     </div>
   </section>
 
   <!-- SERVICES -->
-  <section id="services" aria-label="Услуги">
-    <h2>Услуги</h2>
-    <p class="lead">Мы предоставляем полный набор услуг для комфортного отдыха.</p>
+  <section id="services" aria-label="Г“Г±Г«ГіГЈГЁ">
+    <h2>Г“Г±Г«ГіГЈГЁ</h2>
+    <p class="lead">ГЊГ» ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГїГҐГ¬ ГЇГ®Г«Г­Г»Г© Г­Г ГЎГ®Г° ГіГ±Г«ГіГЈ Г¤Г«Гї ГЄГ®Г¬ГґГ®Г°ГІГ­Г®ГЈГ® Г®ГІГ¤Г»ГµГ .</p>
 
     <div class="services" style="margin-top:12px">
       <div class="service">
-        <strong>Завтраки</strong>
-        <div style="color:var(--muted);margin-top:6px">Ежедневно с 07:00 до 10:00 — континентальный и узбекский варианты.</div>
+        <strong>Г‡Г ГўГІГ°Г ГЄГЁ</strong>
+        <div style="color:var(--muted);margin-top:6px">Г…Г¦ГҐГ¤Г­ГҐГўГ­Г® Г± 07:00 Г¤Г® 10:00 вЂ” ГЄГ®Г­ГІГЁГ­ГҐГ­ГІГ Г«ГјГ­Г»Г© ГЁ ГіГ§ГЎГҐГЄГ±ГЄГЁГ© ГўГ Г°ГЁГ Г­ГІГ».</div>
       </div>
       <div class="service">
-        <strong>Трансфер</strong>
-        <div style="color:var(--muted);margin-top:6px">Встреча в аэропорту и доставка в отель по запросу.</div>
+        <strong>Г’Г°Г Г­Г±ГґГҐГ°</strong>
+        <div style="color:var(--muted);margin-top:6px">Г‚Г±ГІГ°ГҐГ·Г  Гў Г ГЅГ°Г®ГЇГ®Г°ГІГі ГЁ Г¤Г®Г±ГІГ ГўГЄГ  Гў Г®ГІГҐГ«Гј ГЇГ® Г§Г ГЇГ°Г®Г±Гі.</div>
       </div>
       <div class="service">
-        <strong>Экскурсии</strong>
-        <div style="color:var(--muted);margin-top:6px">Индивидуальные и групповые экскурсии по Самарканду и соседним городам.</div>
+        <strong>ГќГЄГ±ГЄГіГ°Г±ГЁГЁ</strong>
+        <div style="color:var(--muted);margin-top:6px">Г€Г­Г¤ГЁГўГЁГ¤ГіГ Г«ГјГ­Г»ГҐ ГЁ ГЈГ°ГіГЇГЇГ®ГўГ»ГҐ ГЅГЄГ±ГЄГіГ°Г±ГЁГЁ ГЇГ® Г‘Г Г¬Г Г°ГЄГ Г­Г¤Гі ГЁ Г±Г®Г±ГҐГ¤Г­ГЁГ¬ ГЈГ®Г°Г®Г¤Г Г¬.</div>
       </div>
       <div class="service">
-        <strong>Прачечная</strong>
-        <div style="color:var(--muted);margin-top:6px">Услуга прачечной с доставкой в номер.</div>
+        <strong>ГЏГ°Г Г·ГҐГ·Г­Г Гї</strong>
+        <div style="color:var(--muted);margin-top:6px">Г“Г±Г«ГіГЈГ  ГЇГ°Г Г·ГҐГ·Г­Г®Г© Г± Г¤Г®Г±ГІГ ГўГЄГ®Г© Гў Г­Г®Г¬ГҐГ°.</div>
       </div>
       <div class="service">
         <strong>Wi-Fi</strong>
-        <div style="color:var(--muted);margin-top:6px">Бесплатный и быстрый интернет на всей территории.</div>
+        <div style="color:var(--muted);margin-top:6px">ГЃГҐГ±ГЇГ«Г ГІГ­Г»Г© ГЁ ГЎГ»Г±ГІГ°Г»Г© ГЁГ­ГІГҐГ°Г­ГҐГІ Г­Г  ГўГ±ГҐГ© ГІГҐГ°Г°ГЁГІГ®Г°ГЁГЁ.</div>
       </div>
       <div class="service">
-        <strong>Помощь 24/7</strong>
-        <div style="color:var(--muted);margin-top:6px">Ресепшн работает круглосуточно.</div>
+        <strong>ГЏГ®Г¬Г®Г№Гј 24/7</strong>
+        <div style="color:var(--muted);margin-top:6px">ГђГҐГ±ГҐГЇГёГ­ Г°Г ГЎГ®ГІГ ГҐГІ ГЄГ°ГіГЈГ«Г®Г±ГіГІГ®Г·Г­Г®.</div>
       </div>
     </div>
   </section>
 
   <!-- GALLERY -->
-  <section aria-label="Галерея">
-    <h2>Галерея</h2>
-    <p class="lead">Несколько фотографий отеля и окрестностей.</p>
+  <section aria-label="ГѓГ Г«ГҐГ°ГҐГї">
+    <h2>ГѓГ Г«ГҐГ°ГҐГї</h2>
+    <p class="lead">ГЌГҐГ±ГЄГ®Г«ГјГЄГ® ГґГ®ГІГ®ГЈГ°Г ГґГЁГ© Г®ГІГҐГ«Гї ГЁ Г®ГЄГ°ГҐГ±ГІГ­Г®Г±ГІГҐГ©.</p>
 
     <div class="gallery" style="margin-top:12px">
       <img src="https://source.unsplash.com/800x600/?samarkand,architecture" alt="">
@@ -278,22 +278,22 @@
   </section>
 
   <!-- CONTACT & BOOKING -->
-  <section id="contacts" aria-label="Контакты">
-    <h2>Контакты и бронирование</h2>
-    <p class="lead">Свяжитесь с нами или заполните форму — мы подтвердим бронь в течение часа.</p>
+  <section id="contacts" aria-label="ГЉГ®Г­ГІГ ГЄГІГ»">
+    <h2>ГЉГ®Г­ГІГ ГЄГІГ» ГЁ ГЎГ°Г®Г­ГЁГ°Г®ГўГ Г­ГЁГҐ</h2>
+    <p class="lead">Г‘ГўГїГ¦ГЁГІГҐГ±Гј Г± Г­Г Г¬ГЁ ГЁГ«ГЁ Г§Г ГЇГ®Г«Г­ГЁГІГҐ ГґГ®Г°Г¬Гі вЂ” Г¬Г» ГЇГ®Г¤ГІГўГҐГ°Г¤ГЁГ¬ ГЎГ°Г®Г­Гј Гў ГІГҐГ·ГҐГ­ГЁГҐ Г·Г Г±Г .</p>
 
     <div class="contact-grid" style="margin-top:12px">
       <div class="contact-card">
-        <h3>Наши контакты</h3>
-        <p style="margin:6px 0;color:var(--muted)">Адрес: г. Самарканд, ул. Примерная, 10</p>
-        <p style="margin:6px 0;color:var(--muted)">Телефон/WhatsApp: <strong>+998 66 123 45 67</strong></p>
+        <h3>ГЌГ ГёГЁ ГЄГ®Г­ГІГ ГЄГІГ»</h3>
+        <p style="margin:6px 0;color:var(--muted)">ГЂГ¤Г°ГҐГ±: ГЈ. Г‘Г Г¬Г Г°ГЄГ Г­Г¤, ГіГ«. ГЏГ°ГЁГ¬ГҐГ°Г­Г Гї, 10</p>
+        <p style="margin:6px 0;color:var(--muted)">Г’ГҐГ«ГҐГґГ®Г­/WhatsApp: <strong>+998 66 123 45 67</strong></p>
         <p style="margin:6px 0;color:var(--muted)">Email: <strong>info@samarkand-hotel.example</strong></p>
 
-        <h4 style="margin-top:12px">Как добраться</h4>
-        <p style="margin:6px 0;color:var(--muted)">От железнодорожного вокзала — 10 минут на такси. От аэропорта — около 40 минут.</p>
+        <h4 style="margin-top:12px">ГЉГ ГЄ Г¤Г®ГЎГ°Г ГІГјГ±Гї</h4>
+        <p style="margin:6px 0;color:var(--muted)">ГЋГІ Г¦ГҐГ«ГҐГ§Г­Г®Г¤Г®Г°Г®Г¦Г­Г®ГЈГ® ГўГ®ГЄГ§Г Г«Г  вЂ” 10 Г¬ГЁГ­ГіГІ Г­Г  ГІГ ГЄГ±ГЁ. ГЋГІ Г ГЅГ°Г®ГЇГ®Г°ГІГ  вЂ” Г®ГЄГ®Г«Г® 40 Г¬ГЁГ­ГіГІ.</p>
 
-        <h4 style="margin-top:12px">Карта</h4>
-        <!-- Замените src карты на свою ссылку Google Maps или вставьте API-ключ -->
+        <h4 style="margin-top:12px">ГЉГ Г°ГІГ </h4>
+        <!-- Г‡Г Г¬ГҐГ­ГЁГІГҐ src ГЄГ Г°ГІГ» Г­Г  Г±ГўГ®Гѕ Г±Г±Г»Г«ГЄГі Google Maps ГЁГ«ГЁ ГўГ±ГІГ ГўГјГІГҐ API-ГЄГ«ГѕГ· -->
         <div style="border-radius:8px;overflow:hidden;margin-top:8px">
           <iframe width="100%" height="240" style="border:0" loading="lazy"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d...REPLACE_WITH_ACTUAL_MAP_LINK..." 
@@ -303,48 +303,48 @@
       </div>
 
       <div class="contact-card" id="booking">
-        <h3>Форма бронирования</h3>
+        <h3>Г”Г®Г°Г¬Г  ГЎГ°Г®Г­ГЁГ°Г®ГўГ Г­ГЁГї</h3>
         <form id="bookingForm" onsubmit="return submitBooking(event)">
-          <label for="name">Ваше имя</label>
-          <input id="name" type="text" required placeholder="Иван Иванов">
+          <label for="name">Г‚Г ГёГҐ ГЁГ¬Гї</label>
+          <input id="name" type="text" required placeholder="Г€ГўГ Г­ Г€ГўГ Г­Г®Гў">
 
           <label for="email">Email</label>
           <input id="email" type="email" required placeholder="email@example.com">
 
-          <label for="phone">Телефон (WhatsApp)</label>
+          <label for="phone">Г’ГҐГ«ГҐГґГ®Г­ (WhatsApp)</label>
           <input id="phone" type="text" required placeholder="+998 9x xxx xx xx">
 
           <div class="inline">
             <div style="flex:1">
-              <label for="checkin">Заезд</label>
+              <label for="checkin">Г‡Г ГҐГ§Г¤</label>
               <input id="checkin" type="date" required>
             </div>
             <div style="flex:1">
-              <label for="checkout">Выезд</label>
+              <label for="checkout">Г‚Г»ГҐГ§Г¤</label>
               <input id="checkout" type="date" required>
             </div>
           </div>
 
-          <label for="room">Тип номера</label>
+          <label for="room">Г’ГЁГЇ Г­Г®Г¬ГҐГ°Г </label>
           <select id="room" required>
-            <option value="Стандарт">Стандарт</option>
-            <option value="Люкс">Люкс</option>
-            <option value="Семейный">Семейный</option>
+            <option value="Г‘ГІГ Г­Г¤Г Г°ГІ">Г‘ГІГ Г­Г¤Г Г°ГІ</option>
+            <option value="Г‹ГѕГЄГ±">Г‹ГѕГЄГ±</option>
+            <option value="Г‘ГҐГ¬ГҐГ©Г­Г»Г©">Г‘ГҐГ¬ГҐГ©Г­Г»Г©</option>
           </select>
 
-          <label for="message">Дополнительная информация</label>
-          <textarea id="message" rows="3" placeholder="Трансфер, поздний заезд и т.д."></textarea>
+          <label for="message">Г„Г®ГЇГ®Г«Г­ГЁГІГҐГ«ГјГ­Г Гї ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГї</label>
+          <textarea id="message" rows="3" placeholder="Г’Г°Г Г­Г±ГґГҐГ°, ГЇГ®Г§Г¤Г­ГЁГ© Г§Г ГҐГ§Г¤ ГЁ ГІ.Г¤."></textarea>
 
           <div style="margin-top:12px;display:flex;gap:8px;">
-            <button class="btn" type="submit">Отправить заявку</button>
-            <button class="btn secondary" type="button" onclick="resetForm()">Очистить</button>
+            <button class="btn" type="submit">ГЋГІГЇГ°Г ГўГЁГІГј Г§Г ГїГўГЄГі</button>
+            <button class="btn secondary" type="button" onclick="resetForm()">ГЋГ·ГЁГ±ГІГЁГІГј</button>
           </div>
 
           <p id="formMessage" style="margin-top:10px;color:var(--muted)"></p>
         </form>
 
         <script>
-          // Простая клиентская обработка формы.
+          // ГЏГ°Г®Г±ГІГ Гї ГЄГ«ГЁГҐГ­ГІГ±ГЄГ Гї Г®ГЎГ°Г ГЎГ®ГІГЄГ  ГґГ®Г°Г¬Г».
           function submitBooking(e){
             e.preventDefault();
             const name = document.getElementById('name').value.trim();
@@ -355,31 +355,31 @@
             const room = document.getElementById('room').value;
             const message = document.getElementById('message').value.trim();
 
-            // Валидация дат
+            // Г‚Г Г«ГЁГ¤Г Г¶ГЁГї Г¤Г ГІ
             if (new Date(checkout) <= new Date(checkin)){
-              showMessage('Дата выезда должна быть позже даты заезда', true);
+              showMessage('Г„Г ГІГ  ГўГ»ГҐГ§Г¤Г  Г¤Г®Г«Г¦Г­Г  ГЎГ»ГІГј ГЇГ®Г§Г¦ГҐ Г¤Г ГІГ» Г§Г ГҐГ§Г¤Г ', true);
               return false;
             }
 
-            // Здесь: отправка на email/сервер. Пока — показываем примерный текст для копирования/отправки.
+            // Г‡Г¤ГҐГ±Гј: Г®ГІГЇГ°Г ГўГЄГ  Г­Г  email/Г±ГҐГ°ГўГҐГ°. ГЏГ®ГЄГ  вЂ” ГЇГ®ГЄГ Г§Г»ГўГ ГҐГ¬ ГЇГ°ГЁГ¬ГҐГ°Г­Г»Г© ГІГҐГЄГ±ГІ Г¤Г«Гї ГЄГ®ГЇГЁГ°Г®ГўГ Г­ГЁГї/Г®ГІГЇГ°Г ГўГЄГЁ.
             const body = 
-`Новая заявка на бронирование:
-Имя: ${name}
+`ГЌГ®ГўГ Гї Г§Г ГїГўГЄГ  Г­Г  ГЎГ°Г®Г­ГЁГ°Г®ГўГ Г­ГЁГҐ:
+Г€Г¬Гї: ${name}
 Email: ${email}
-Телефон: ${phone}
-Заезд: ${checkin}
-Выезд: ${checkout}
-Номер: ${room}
-Примечание: ${message}`;
+Г’ГҐГ«ГҐГґГ®Г­: ${phone}
+Г‡Г ГҐГ§Г¤: ${checkin}
+Г‚Г»ГҐГ§Г¤: ${checkout}
+ГЌГ®Г¬ГҐГ°: ${room}
+ГЏГ°ГЁГ¬ГҐГ·Г Г­ГЁГҐ: ${message}`;
 
-            // Для демонстрации копируем текст в буфер и показываем сообщение.
+            // Г„Г«Гї Г¤ГҐГ¬Г®Г­Г±ГІГ°Г Г¶ГЁГЁ ГЄГ®ГЇГЁГ°ГіГҐГ¬ ГІГҐГЄГ±ГІ Гў ГЎГіГґГҐГ° ГЁ ГЇГ®ГЄГ Г§Г»ГўГ ГҐГ¬ Г±Г®Г®ГЎГ№ГҐГ­ГЁГҐ.
             navigator.clipboard?.writeText(body).then(() => {
-              showMessage('Заявка подготовлена и скопирована в буфер обмена. Отправьте её нам в WhatsApp или по email (+998 66 123 45 67).', false);
+              showMessage('Г‡Г ГїГўГЄГ  ГЇГ®Г¤ГЈГ®ГІГ®ГўГ«ГҐГ­Г  ГЁ Г±ГЄГ®ГЇГЁГ°Г®ГўГ Г­Г  Гў ГЎГіГґГҐГ° Г®ГЎГ¬ГҐГ­Г . ГЋГІГЇГ°Г ГўГјГІГҐ ГҐВё Г­Г Г¬ Гў WhatsApp ГЁГ«ГЁ ГЇГ® email (+998 66 123 45 67).', false);
             }).catch(() => {
-              showMessage('Заявка готова. Скопируйте текст вручную:\n' + body, false);
+              showMessage('Г‡Г ГїГўГЄГ  ГЈГ®ГІГ®ГўГ . Г‘ГЄГ®ГЇГЁГ°ГіГ©ГІГҐ ГІГҐГЄГ±ГІ ГўГ°ГіГ·Г­ГіГѕ:\n' + body, false);
             });
 
-            // Если хочешь — можно отправить форму на Formspree или Getform. 
+            // Г…Г±Г«ГЁ ГµГ®Г·ГҐГёГј вЂ” Г¬Г®Г¦Г­Г® Г®ГІГЇГ°Г ГўГЁГІГј ГґГ®Г°Г¬Гі Г­Г  Formspree ГЁГ«ГЁ Getform. 
             return false;
           }
 
@@ -401,9 +401,20 @@ Email: ${email}
 
 <footer>
   <div class="container">
-    © <strong>Отель Самарканд</strong> — Все права защищены. Тел: +998 66 123 45 67 — Адрес: г. Самарканд, ул. Примерная, 10
+    В© <strong>ГЋГІГҐГ«Гј Г‘Г Г¬Г Г°ГЄГ Г­Г¤</strong> вЂ” Г‚Г±ГҐ ГЇГ°Г ГўГ  Г§Г Г№ГЁГ№ГҐГ­Г». Г’ГҐГ«: +998 66 123 45 67 вЂ” ГЂГ¤Г°ГҐГ±: ГЈ. Г‘Г Г¬Г Г°ГЄГ Г­Г¤, ГіГ«. ГЏГ°ГЁГ¬ГҐГ°Г­Г Гї, 10
   </div>
 </footer>
 
 </body>
 </html>
+
+<body>
+  <h1>Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ РІ РћС‚РµР»СЊ В«РЎР°РјР°СЂРєР°РЅРґВ»</h1>
+  <p>
+    РќР°С€ РѕС‚РµР»СЊ СЂР°СЃРїРѕР»РѕР¶РµРЅ РІ С†РµРЅС‚СЂРµ РЎР°РјР°СЂРєР°РЅРґР°, РІСЃРµРіРѕ РІ 5 РјРёРЅСѓС‚Р°С… РѕС‚ РїР»РѕС‰Р°РґРё Р РµРіРёСЃС‚Р°РЅ. 
+    РњС‹ РїСЂРµРґР»Р°РіР°РµРј СѓСЋС‚РЅС‹Рµ РЅРѕРјРµСЂР°, Р±РµСЃРїР»Р°С‚РЅС‹Р№ Wi-Fi, РІРєСѓСЃРЅС‹Рµ Р·Р°РІС‚СЂР°РєРё Рё С‚СЂР°РЅСЃС„РµСЂ РёР· Р°СЌСЂРѕРїРѕСЂС‚Р°.
+  </p>
+  <p>
+    Р—Р°Р±СЂРѕРЅРёСЂСѓР№С‚Рµ РЅРѕРјРµСЂ РїСЂСЏРјРѕ СЃРµР№С‡Р°СЃ Рё РЅР°СЃР»Р°РґРёС‚РµСЃСЊ РЅР°СЃС‚РѕСЏС‰РёРј РІРѕСЃС‚РѕС‡РЅС‹Рј РіРѕСЃС‚РµРїСЂРёРёРјСЃС‚РІРѕРј!
+  </p>
+</body>

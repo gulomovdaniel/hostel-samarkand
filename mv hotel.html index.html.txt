@@ -414,4 +414,22 @@ Email: ${email}
   <p>
     Забронируйте номер прямо сейчас и насладитесь настоящим восточным гостеприимством!
   </p>
-</body>
+</stayle>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  h1 {
+    color: #2a4d69;
+  }
+  p {
+    font-size: 18px;
+    color: #333;
+  }
+  img {
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+</style>
+

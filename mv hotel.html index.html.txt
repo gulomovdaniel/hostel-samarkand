@@ -1,435 +1,117 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Îòåëü Ñàìàðêàíä — Óþòíûé îòäûõ â ñåðäöå ãîðîäà</title>
-  <meta name="description" content="Îòåëü Ñàìàðêàíä — óþòíûå íîìåðà, çàâòðàê, òðàíñôåð, ýêñêóðñèè. Íàõîäèòñÿ â 5 ìèíóòàõ îò Ðåãèñòàíà. Çàáðîíèðóéòå íîìåð ïðÿìî ñåé÷àñ." />
-  <meta property="og:title" content="Îòåëü Ñàìàðêàíä — Óþòíûé îòäûõ â ñåðäöå ãîðîäà" />
-  <meta property="og:description" content="Óäîáíîå ðàñïîëîæåíèå, áåñïëàòíûé Wi-Fi, òðàíñôåð è ýêñêóðñèè. Çàáðîíèðóéòå íîìåð â Ñàìàðêàíäå." />
-  <meta property="og:image" content="https://source.unsplash.com/1200x630/?samarkand,hotel" />
-  <meta name="theme-color" content="#2b6cb0" />
-
-  <!-- Simple CSS reset + styles -->
+  <meta charset="UTF-8">
+  <title>Отель Самарканд</title>
   <style>
-    :root{
-      --accent:#2b6cb0;
-      --dark:#0f1724;
-      --muted:#6b7280;
-      --card:#ffffff;
-      --radius:10px;
-      --max-width:1100px;
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
     }
-    *{box-sizing:border-box}
-    html,body{height:100%;}
-    body{
-      margin:0;
-      font-family: Inter, "Helvetica Neue", Arial, sans-serif;
-      color:var(--dark);
-      background:linear-gradient(180deg,#f6f9ff 0%, #ffffff 100%);
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
-      line-height:1.45;
+    header {
+      background-color: #2a4d69;
+      color: white;
+      padding: 20px;
+      text-align: center;
     }
-
-    header{
-      background:linear-gradient(90deg, rgba(43,108,176,0.95), rgba(41,128,185,0.95));
-      color:#fff;
-      padding:22px 16px;
-      position:sticky;
-      top:0;
-      z-index:40;
-      backdrop-filter: blur(6px);
-      box-shadow: 0 6px 18px rgba(43,108,176,0.12);
+    nav {
+      background-color: #4b86b4;
+      padding: 10px;
+      text-align: center;
     }
-    .container{max-width:var(--max-width);margin:0 auto;padding:0 16px;}
-    .nav{
-      display:flex;align-items:center;justify-content:space-between;gap:12px;
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
     }
-    .brand{display:flex;align-items:center;gap:12px;font-weight:700;font-size:18px}
-    .brand img{width:44px;height:44px;border-radius:8px;object-fit:cover}
-    nav a{color:#fff;text-decoration:none;margin-left:12px;font-weight:600;font-size:14px;opacity:0.95}
-    .cta{
-      background:#fff;color:var(--accent);padding:8px 14px;border-radius:8px;font-weight:700;text-decoration:none;
-      box-shadow:0 4px 14px rgba(0,0,0,0.08);
+    nav a:hover {
+      text-decoration: underline;
     }
-
-    /* Hero */
-    .hero{
-      display:grid;grid-template-columns:1fr;gap:18px;align-items:center;padding:36px 0 18px;
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
     }
-    .hero-grid{display:grid;grid-template-columns:1fr;gap:18px;align-items:center;}
-    .hero-card{
-      background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.85));
-      border-radius:var(--radius);
-      padding:22px;
-      box-shadow:0 10px 30px rgba(16,24,40,0.06);
-      display:flex;flex-direction:column;gap:12px;
+    h2 {
+      color: #2a4d69;
+      margin-bottom: 20px;
     }
-    .hero-title{font-size:28px;font-weight:800;margin:0}
-    .hero-sub{color:var(--muted);margin:0}
-    .hero-actions{display:flex;gap:12px;flex-wrap:wrap}
-    .btn{background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700}
-    .btn.secondary{background:transparent;border:2px solid rgba(43,108,176,0.12);color:var(--dark)}
-
-    .hero-photo{
-      border-radius:var(--radius);
-      overflow:hidden;
-      height:260px;
-      box-shadow:0 12px 30px rgba(16,24,40,0.06);
+    p {
+      font-size: 18px;
+      line-height: 1.6;
     }
-    .hero-photo img{width:100%;height:100%;object-fit:cover;display:block}
-
-    /* Sections */
-    section{padding:28px 0}
-    h2{margin:0 0 10px 0;font-size:20px}
-    p.lead{color:var(--muted);margin:0 0 18px 0}
-
-    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-    .card{background:var(--card);border-radius:12px;padding:14px;box-shadow:0 8px 24px rgba(16,24,40,0.04)}
-    .room-photo{height:150px;border-radius:8px;overflow:hidden;margin-bottom:10px}
-    .room-photo img{width:100%;height:100%;object-fit:cover;display:block}
-
-    .services{display:flex;flex-wrap:wrap;gap:12px}
-    .service{flex:1 1 180px;padding:12px;border-radius:10px;background:linear-gradient(180deg,#fff,#fbfdff);box-shadow:0 6px 18px rgba(16,24,40,0.03)}
-
-    /* Gallery */
-    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-    .gallery img{width:100%;height:160px;object-fit:cover;border-radius:8px}
-
-    /* Contact & booking */
-    .contact-grid{display:grid;grid-template-columns:1fr 380px;gap:18px}
-    .contact-card{padding:16px;border-radius:12px;background:#fff;box-shadow:0 8px 30px rgba(16,24,40,0.04)}
-    form label{display:block;font-weight:600;margin:8px 0 6px}
-    input[type="text"],input[type="email"],input[type="date"],select,textarea{
-      width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef8;background:#fbfdff;
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 15px;
     }
-    .inline{display:flex;gap:8px}
-    .inline input{flex:1}
-
-    footer{padding:20px 0;color:var(--muted);font-size:14px;text-align:center}
-
-    /* Responsive */
-    @media (min-width:760px){
-      .hero{grid-template-columns:1fr 420px}
-      .hero-grid{grid-template-columns:1fr}
-      .grid-3{grid-template-columns:repeat(3,1fr)}
-      .gallery{grid-template-columns:repeat(3,1fr)}
-    }
-    @media (max-width:759px){
-      .grid-3{grid-template-columns:1fr}
-      .gallery{grid-template-columns:repeat(2,1fr)}
-      .contact-grid{grid-template-columns:1fr}
-      nav a{display:none}
-      .nav .mobile-links{display:flex;gap:8px}
+    footer {
+      background-color: #2a4d69;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
 
-<header>
-  <div class="container nav">
-    <div class="brand">
-      <img src="https://source.unsplash.com/300x300/?samarkand,architecture" alt="logo">
-      <div>
-        <div style="font-size:16px">Îòåëü <strong>Ñàìàðêàíä</strong></div>
-        <div style="font-size:12px;color:rgba(255,255,255,0.9)">Óþòíûé îòäûõ â ñåðäöå ãîðîäà</div>
-      </div>
-    </div>
+  <header>
+    <h1>Отель «Самарканд»</h1>
+    <p>Уютный отдых в сердце Самарканда</p>
+  </header>
 
-    <div style="display:flex;align-items:center;gap:12px">
-      <nav>
-        <a href="#about">Î íàñ</a>
-        <a href="#rooms">Íîìåðà</a>
-        <a href="#services">Óñëóãè</a>
-        <a href="#contacts">Êîíòàêòû</a>
-      </nav>
-      <div class="mobile-links">
-        <a class="cta" href="#booking">Çàáðîíèðîâàòü</a>
-      </div>
-    </div>
-  </div>
-</header>
+  <nav>
+    <a href="#about">О нас</a>
+    <a href="#rooms">Номера</a>
+    <a href="#services">Услуги</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
 
-<main class="container">
-  <!-- HERO -->
-  <section class="hero" aria-label="Ãëàâíàÿ">
-    <div class="hero-card">
-      <h1 class="hero-title">Îòåëü <span style="color:var(--accent)">Ñàìàðêàíä</span></h1>
-      <p class="hero-sub">Êîìôîðòíûå íîìåðà, äîìàøíèé çàâòðàê è ýêñêóðñèè ê Ðåãèñòàíó. Èäåàëüíî äëÿ òóðèñòîâ è äåëîâûõ ãîñòåé.</p>
-
-      <div style="display:flex;gap:12px;align-items:center;margin-top:6px">
-        <a class="btn" href="#booking">Çàáðîíèðîâàòü</a>
-        <a class="btn secondary" href="#rooms">Ñìîòðåòü íîìåðà</a>
-      </div>
-
-      <ul style="margin-top:16px;color:var(--muted);padding-left:18px">
-        <li>Áåñïëàòíûé Wi-Fi ïî âñåé òåððèòîðèè</li>
-        <li>Òðàíñôåð èç àýðîïîðòà ïî çàïðîñó</li>
-        <li>Ïîìîùü â îðãàíèçàöèè ýêñêóðñèé ïî Ñàìàðêàíäó</li>
-      </ul>
-
-      <div style="margin-top:12px;color:var(--muted);font-size:14px">
-        Êîíòàêòû: <strong>+998 66 123 45 67</strong> — WhatsApp / Òåëåôîí
-      </div>
-    </div>
-
-    <div class="hero-photo">
-      <img src="https://source.unsplash.com/900x600/?samarkand,hotel,interior" alt="Îòåëü Ñàìàðêàíä">
-    </div>
+  <section id="about">
+    <h2>О нас</h2>
+    <p>
+      Наш отель расположен в центре Самарканда, всего в 5 минутах от площади Регистан. 
+      Мы предлагаем комфортные номера, бесплатный Wi-Fi, вкусные завтраки и трансфер из аэропорта. 
+      Уютная атмосфера и восточное гостеприимство сделают ваш отдых незабываемым!
+    </p>
+    <img src="hotel.jpg" alt="Фото отеля">
   </section>
 
-  <!-- ABOUT -->
-  <section id="about" aria-label="Î íàñ">
-    <h2>Î íàøåì îòåëå</h2>
-    <p class="lead">Îòåëü «Ñàìàðêàíä» ðàñïîëîæåí â èñòîðè÷åñêîì öåíòðå ãîðîäà, â 5 ìèíóòàõ õîäüáû îò ïëîùàäè Ðåãèñòàí è îñíîâíûõ äîñòîïðèìå÷àòåëüíîñòåé. Ìû ïðåäëàãàåì óþòíûå íîìåðà, ïåðñîíàëüíóþ çàáîòó è âûãîäíîå ðàñïîëîæåíèå äëÿ ïðîãóëîê è ýêñêóðñèé.</p>
-
-    <div class="grid-3" style="margin-top:14px">
-      <div class="card">
-        <h3 style="margin-top:0">Óäîáíîå ðàñïîëîæåíèå</h3>
-        <p class="lead" style="margin:0">Ðÿäîì ìóçåè, ðûíêè è ðåñòîðàíû óçáåêñêîé êóõíè.</p>
-      </div>
-      <div class="card">
-        <h3 style="margin-top:0">Êîìôîðò è ÷èñòîòà</h3>
-        <p class="lead" style="margin:0">Åæåäíåâíàÿ óáîðêà, êîìôîðòíûå êðîâàòè, êëèìàò-êîíòðîëü.</p>
-      </div>
-      <div class="card">
-        <h3 style="margin-top:0">Ïîääåðæêà 24/7</h3>
-        <p class="lead" style="margin:0">Ðåñåïøí ðàáîòàåò êðóãëîñóòî÷íî, ïîìîæåì ñ òðàíñôåðîì è ýêñêóðñèÿìè.</p>
-      </div>
-    </div>
+  <section id="rooms">
+    <h2>Номера</h2>
+    <p><strong>Стандартный номер:</strong> уютный, кондиционер, Wi-Fi.</p>
+    <p><strong>Люкс:</strong> просторный номер с красивым видом, телевизор, мини-бар.</p>
+    <p><strong>Семейный номер:</strong> идеально для отдыха с детьми, несколько кроватей, кухня.</p>
+    <img src="room.jpg" alt="Номер в отеле">
   </section>
 
-  <!-- ROOMS -->
-  <section id="rooms" aria-label="Íîìåðà">
-    <h2>Íîìåðà è öåíû</h2>
-    <p class="lead">Âûáåðè òèï íîìåðà — îò óþòíîãî Ñòàíäàðòà äî ïðîñòîðíîãî Ëþêñà. Öåíû îðèåíòèðîâî÷íûå — óòî÷íÿéòå ïðè áðîíèðîâàíèè.</p>
-
-    <div class="grid-3" style="margin-top:14px">
-      <div class="card">
-        <div class="room-photo"><img src="https://source.unsplash.com/600x400/?hotel,room" alt="Ñòàíäàðò"></div>
-        <h3>Ñòàíäàðò</h3>
-        <p style="margin:6px 0;color:var(--muted)">Îäíîìåñòíûé / äâóõìåñòíûé íîìåð, 18–22 ì?, äóø, ðàáî÷åå ìåñòî.</p>
-        <div style="font-weight:700">îò 40 $ / íî÷ü</div>
-      </div>
-
-      <div class="card">
-        <div class="room-photo"><img src="https://source.unsplash.com/600x400/?hotel,bedroom" alt="Ëþêñ"></div>
-        <h3>Ëþêñ</h3>
-        <p style="margin:6px 0;color:var(--muted)">Ïðîñòîðíûé íîìåð, óëó÷øåííàÿ ìåáåëü, ìèíè-áàð, âèä íà ãîðîä.</p>
-        <div style="font-weight:700">îò 70 $ / íî÷ü</div>
-      </div>
-
-      <div class="card">
-        <div class="room-photo"><img src="https://source.unsplash.com/600x400/?family,hotel" alt="Ñåìåéíûé íîìåð"></div>
-        <h3>Ñåìåéíûé</h3>
-        <p style="margin:6px 0;color:var(--muted)">Äâà ñìåæíûõ íîìåðà èëè áîëüøîé íîìåð äëÿ ñåìüè äî 4 ÷åëîâåê.</p>
-        <div style="font-weight:700">îò 85 $ / íî÷ü</div>
-      </div>
-    </div>
+  <section id="services">
+    <h2>Услуги</h2>
+    <ul>
+      <li>Завтраки и ужины</li>
+      <li>Экскурсии по Самарканду</li>
+      <li>Трансфер в аэропорт</li>
+      <li>Круглосуточная стойка регистрации</li>
+    </ul>
   </section>
 
-  <!-- SERVICES -->
-  <section id="services" aria-label="Óñëóãè">
-    <h2>Óñëóãè</h2>
-    <p class="lead">Ìû ïðåäîñòàâëÿåì ïîëíûé íàáîð óñëóã äëÿ êîìôîðòíîãî îòäûõà.</p>
-
-    <div class="services" style="margin-top:12px">
-      <div class="service">
-        <strong>Çàâòðàêè</strong>
-        <div style="color:var(--muted);margin-top:6px">Åæåäíåâíî ñ 07:00 äî 10:00 — êîíòèíåíòàëüíûé è óçáåêñêèé âàðèàíòû.</div>
-      </div>
-      <div class="service">
-        <strong>Òðàíñôåð</strong>
-        <div style="color:var(--muted);margin-top:6px">Âñòðå÷à â àýðîïîðòó è äîñòàâêà â îòåëü ïî çàïðîñó.</div>
-      </div>
-      <div class="service">
-        <strong>Ýêñêóðñèè</strong>
-        <div style="color:var(--muted);margin-top:6px">Èíäèâèäóàëüíûå è ãðóïïîâûå ýêñêóðñèè ïî Ñàìàðêàíäó è ñîñåäíèì ãîðîäàì.</div>
-      </div>
-      <div class="service">
-        <strong>Ïðà÷å÷íàÿ</strong>
-        <div style="color:var(--muted);margin-top:6px">Óñëóãà ïðà÷å÷íîé ñ äîñòàâêîé â íîìåð.</div>
-      </div>
-      <div class="service">
-        <strong>Wi-Fi</strong>
-        <div style="color:var(--muted);margin-top:6px">Áåñïëàòíûé è áûñòðûé èíòåðíåò íà âñåé òåððèòîðèè.</div>
-      </div>
-      <div class="service">
-        <strong>Ïîìîùü 24/7</strong>
-        <div style="color:var(--muted);margin-top:6px">Ðåñåïøí ðàáîòàåò êðóãëîñóòî÷íî.</div>
-      </div>
-    </div>
+  <section id="contacts">
+    <h2>Контакты</h2>
+    <p>📍 Адрес: Самарканд, ул. Примерная, 10</p>
+    <p>📞 Телефон / WhatsApp: +998 91 549 91 31</p>
+    <p>✉️ Email: info@samarkand-hotel.example</p>
   </section>
 
-  <!-- GALLERY -->
-  <section aria-label="Ãàëåðåÿ">
-    <h2>Ãàëåðåÿ</h2>
-    <p class="lead">Íåñêîëüêî ôîòîãðàôèé îòåëÿ è îêðåñòíîñòåé.</p>
-
-    <div class="gallery" style="margin-top:12px">
-      <img src="https://source.unsplash.com/800x600/?samarkand,architecture" alt="">
-      <img src="https://source.unsplash.com/800x600/?samarkand,market" alt="">
-      <img src="https://source.unsplash.com/800x600/?samarkand,travel" alt="">
-      <img src="https://source.unsplash.com/800x600/?uzbekistan,registan" alt="">
-      <img src="https://source.unsplash.com/800x600/?hotel,lobby" alt="">
-      <img src="https://source.unsplash.com/800x600/?hotel,breakfast" alt="">
-    </div>
-  </section>
-
-  <!-- CONTACT & BOOKING -->
-  <section id="contacts" aria-label="Êîíòàêòû">
-    <h2>Êîíòàêòû è áðîíèðîâàíèå</h2>
-    <p class="lead">Ñâÿæèòåñü ñ íàìè èëè çàïîëíèòå ôîðìó — ìû ïîäòâåðäèì áðîíü â òå÷åíèå ÷àñà.</p>
-
-    <div class="contact-grid" style="margin-top:12px">
-      <div class="contact-card">
-        <h3>Íàøè êîíòàêòû</h3>
-        <p style="margin:6px 0;color:var(--muted)">Àäðåñ: ã. Ñàìàðêàíä, óë. Ïðèìåðíàÿ, 10</p>
-        <p style="margin:6px 0;color:var(--muted)">Òåëåôîí/WhatsApp: <strong>+998 66 123 45 67</strong></p>
-        <p style="margin:6px 0;color:var(--muted)">Email: <strong>info@samarkand-hotel.example</strong></p>
-
-        <h4 style="margin-top:12px">Êàê äîáðàòüñÿ</h4>
-        <p style="margin:6px 0;color:var(--muted)">Îò æåëåçíîäîðîæíîãî âîêçàëà — 10 ìèíóò íà òàêñè. Îò àýðîïîðòà — îêîëî 40 ìèíóò.</p>
-
-        <h4 style="margin-top:12px">Êàðòà</h4>
-        <!-- Çàìåíèòå src êàðòû íà ñâîþ ññûëêó Google Maps èëè âñòàâüòå API-êëþ÷ -->
-        <div style="border-radius:8px;overflow:hidden;margin-top:8px">
-          <iframe width="100%" height="240" style="border:0" loading="lazy"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d...REPLACE_WITH_ACTUAL_MAP_LINK..." 
-            allowfullscreen>
-          </iframe>
-        </div>
-      </div>
-
-      <div class="contact-card" id="booking">
-        <h3>Ôîðìà áðîíèðîâàíèÿ</h3>
-        <form id="bookingForm" onsubmit="return submitBooking(event)">
-          <label for="name">Âàøå èìÿ</label>
-          <input id="name" type="text" required placeholder="Èâàí Èâàíîâ">
-
-          <label for="email">Email</label>
-          <input id="email" type="email" required placeholder="email@example.com">
-
-          <label for="phone">Òåëåôîí (WhatsApp)</label>
-          <input id="phone" type="text" required placeholder="+998 9x xxx xx xx">
-
-          <div class="inline">
-            <div style="flex:1">
-              <label for="checkin">Çàåçä</label>
-              <input id="checkin" type="date" required>
-            </div>
-            <div style="flex:1">
-              <label for="checkout">Âûåçä</label>
-              <input id="checkout" type="date" required>
-            </div>
-          </div>
-
-          <label for="room">Òèï íîìåðà</label>
-          <select id="room" required>
-            <option value="Ñòàíäàðò">Ñòàíäàðò</option>
-            <option value="Ëþêñ">Ëþêñ</option>
-            <option value="Ñåìåéíûé">Ñåìåéíûé</option>
-          </select>
-
-          <label for="message">Äîïîëíèòåëüíàÿ èíôîðìàöèÿ</label>
-          <textarea id="message" rows="3" placeholder="Òðàíñôåð, ïîçäíèé çàåçä è ò.ä."></textarea>
-
-          <div style="margin-top:12px;display:flex;gap:8px;">
-            <button class="btn" type="submit">Îòïðàâèòü çàÿâêó</button>
-            <button class="btn secondary" type="button" onclick="resetForm()">Î÷èñòèòü</button>
-          </div>
-
-          <p id="formMessage" style="margin-top:10px;color:var(--muted)"></p>
-        </form>
-
-        <script>
-          // Ïðîñòàÿ êëèåíòñêàÿ îáðàáîòêà ôîðìû.
-          function submitBooking(e){
-            e.preventDefault();
-            const name = document.getElementById('name').value.trim();
-            const email = document.getElementById('email').value.trim();
-            const phone = document.getElementById('phone').value.trim();
-            const checkin = document.getElementById('checkin').value;
-            const checkout = document.getElementById('checkout').value;
-            const room = document.getElementById('room').value;
-            const message = document.getElementById('message').value.trim();
-
-            // Âàëèäàöèÿ äàò
-            if (new Date(checkout) <= new Date(checkin)){
-              showMessage('Äàòà âûåçäà äîëæíà áûòü ïîçæå äàòû çàåçäà', true);
-              return false;
-            }
-
-            // Çäåñü: îòïðàâêà íà email/ñåðâåð. Ïîêà — ïîêàçûâàåì ïðèìåðíûé òåêñò äëÿ êîïèðîâàíèÿ/îòïðàâêè.
-            const body = 
-`Íîâàÿ çàÿâêà íà áðîíèðîâàíèå:
-Èìÿ: ${name}
-Email: ${email}
-Òåëåôîí: ${phone}
-Çàåçä: ${checkin}
-Âûåçä: ${checkout}
-Íîìåð: ${room}
-Ïðèìå÷àíèå: ${message}`;
-
-            // Äëÿ äåìîíñòðàöèè êîïèðóåì òåêñò â áóôåð è ïîêàçûâàåì ñîîáùåíèå.
-            navigator.clipboard?.writeText(body).then(() => {
-              showMessage('Çàÿâêà ïîäãîòîâëåíà è ñêîïèðîâàíà â áóôåð îáìåíà. Îòïðàâüòå å¸ íàì â WhatsApp èëè ïî email (+998 66 123 45 67).', false);
-            }).catch(() => {
-              showMessage('Çàÿâêà ãîòîâà. Ñêîïèðóéòå òåêñò âðó÷íóþ:\n' + body, false);
-            });
-
-            // Åñëè õî÷åøü — ìîæíî îòïðàâèòü ôîðìó íà Formspree èëè Getform. 
-            return false;
-          }
-
-          function showMessage(text, isError){
-            const el = document.getElementById('formMessage');
-            el.style.color = isError ? 'crimson' : 'green';
-            el.textContent = text;
-          }
-
-          function resetForm(){
-            document.getElementById('bookingForm').reset();
-            showMessage('', false);
-          }
-        </script>
-      </div>
-    </div>
-  </section>
-</main>
-
-<footer>
-  <div class="container">
-    © <strong>Îòåëü Ñàìàðêàíä</strong> — Âñå ïðàâà çàùèùåíû. Òåë: +998 66 123 45 67 — Àäðåñ: ã. Ñàìàðêàíä, óë. Ïðèìåðíàÿ, 10
-  </div>
-</footer>
+  <footer>
+    <p>© Отель «Самарканд» — все права защищены</p>
+  </footer>
 
 </body>
-<h1>Добро пожаловать в Отель «Самарканд»</h1>
-  <p>
-    Наш отель расположен в центре Самарканда, всего в 5 минутах от площади Регистан. 
-    Мы предлагаем уютные номера, бесплатный Wi-Fi, вкусные завтраки и трансфер из аэропорта.
-  </p>
-  <p>
-    Забронируйте номер прямо сейчас и насладитесь настоящим восточным гостеприимством!
-  </p>
-</stayle>
-  body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f5f5f5;
-  }
-  h1 {
-    color: #2a4d69;
-  }
-  p {
-    font-size: 18px;
-    color: #333;
-  }
-  img {
-    border-radius: 15px;
-    margin-top: 20px;
-  }
-</style>
+</html>
+
 
